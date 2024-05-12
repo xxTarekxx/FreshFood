@@ -43,6 +43,33 @@
     margin-bottom: 0;
 }
 
+.image-container>img {
+    height: 360px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 1020px) {
     .landing .product-list {
         grid-template-columns: repeat(3, 1fr);
