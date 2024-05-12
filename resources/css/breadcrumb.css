@@ -2,6 +2,17 @@
     display: inline;
 }
 
-.breadcrumb li+li::before {
+.breadcrumb li.location+li::before {
     content: '>';
+}
+
+.breadcrumb li.attribute::after {
+    content: "x";
+    color: red;
+    font-size: 10px;
+    vertical-align: super;
+}
+
+.breadcrumb li.attribute a {
+    color: gray;
 }
