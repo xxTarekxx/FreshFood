@@ -1,7 +1,13 @@
 .cart img {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
+
+.search-bar img {
+    width: 20px;
+    height: 20px;
+}
+
 
 .hero {
     width: 100%;
@@ -19,6 +25,9 @@
 
 .hero>p {
     text-align: center;
+    padding-top: 20px;
+    font-size: 1.5rem;
+    font-family: Helvetica, sans-serif;
 }
 
 
@@ -26,7 +35,7 @@
     background-image: url('https://images.unsplash.com/photo-1502741338009-cac2772e18bc?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
 
-.hero h2 {
+.hero h1 {
     padding-top: 10rem;
     font-family: 'PT Serif', serif;
     font-size: 2.25rem;
@@ -57,10 +66,12 @@
 .image-container>img {
     height: 20rem;
     width: 25rem;
+    padding-right: 80px;
 }
 
 .image-container a img {
-    max-height: 180px;
+    max-height: 120px;
+
 }
 
 footer img {
